@@ -13,8 +13,8 @@ npm install
 Create `Server/.dev.vars`:
 
 ```
-SUPABASE_URL=https://your-project.supabase.co
-SUPABASE_SERVICE_ROLE_KEY=your-service-role-key
+SUPABASE_URL=https://project-id.supabase.co
+SUPABASE_SERVICE_ROLE_KEY=SERVICE_ROLE_KEY_HERE
 ```
 
 ```bash
