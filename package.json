@@ -1,0 +1,25 @@
+{
+  "name": "toxicity-reporter-api",
+  "version": "1.0.0",
+  "description": "Cloudflare Worker API for toxicity reporting system",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "start": "wrangler dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "hono": "^4.0.0",
+    "jose": "^5.2.0",
+    "@supabase/supabase-js": "^2.39.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240117.0",
+    "wrangler": "^3.22.0",
+    "typescript": "^5.3.3"
+  }
+}
+

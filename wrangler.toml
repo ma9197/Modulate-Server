@@ -1,0 +1,13 @@
+name = "toxicity-reporter-api"
+main = "src/index.ts"
+compatibility_date = "2024-01-01"
+
+[vars]
+# Environment variables that can be set publicly
+# Secrets should be set via: wrangler secret put VARIABLE_NAME
+
+# Local development settings
+[env.dev]
+# For local testing, you can set these temporarily
+# In production, use wrangler secret put commands
+
