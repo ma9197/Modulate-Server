@@ -3,12 +3,10 @@ main = "src/index.ts"
 compatibility_date = "2024-01-01"
 
 [vars]
-# Environment variables that can be set publicly
-# Secrets should be set via: wrangler secret put VARIABLE_NAME
-SUPABASE_URL = https://buetexgfyvfmdztpbsrr.supabase.co
-SUPABASE_SERVICE_ROLE_KEY = sb_secret_SKLpIDfhSB707H0CjRPPNg_RJLFFn2c
+# Public environment variables (non-sensitive only)
+# DO NOT PUT SECRETS HERE - use Cloudflare dashboard or wrangler secret put
+
 # Local development settings
 [env.dev]
-# For local testing, you can set these temporarily
-# In production, use wrangler secret put commands
+# For local testing with wrangler dev, secrets go in .dev.vars file (gitignored)
 
