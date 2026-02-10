@@ -18,6 +18,8 @@ export interface SupabaseJWTPayload {
 // Report metadata for completion
 export interface ReportCompleteRequest {
   report_id: string;
+  game_name?: string;
+  offender_name?: string;
   description?: string;
   targeted?: boolean;
   desired_action?: string;
@@ -41,6 +43,8 @@ export interface ReportRecord {
   id: string;
   created_at: string;
   user_id: string;
+  game_name?: string;
+  offender_name?: string;
   description?: string;
   targeted?: boolean;
   desired_action?: string;

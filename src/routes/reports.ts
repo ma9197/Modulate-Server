@@ -130,6 +130,8 @@ reports.post('/complete', authMiddleware, async (c) => {
   const reportData = {
     id: body.report_id,
     user_id: userId,
+    game_name: body.game_name || null,
+    offender_name: body.offender_name || null,
     description: body.description || null,
     targeted: body.targeted !== undefined ? body.targeted : null,
     desired_action: body.desired_action || null,
