@@ -1,4 +1,4 @@
-name = "toxicity-reporter-api"
+name = "modulateserver"
 main = "src/index.ts"
 compatibility_date = "2024-01-01"
 
