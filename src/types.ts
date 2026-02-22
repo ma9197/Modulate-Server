@@ -52,7 +52,11 @@ export interface ReportRecord {
   flag_utc?: string;
   clip_start_offset_sec?: number;
   clip_end_offset_sec?: number;
+  /** Path inside the `reports-audio` (desktop/system loopback) bucket */
   audio_path?: string;
+  /** Path inside the `reports-audio-mic` (microphone) bucket */
+  microphone_path?: string;
+  /** Path inside the `reports-video` bucket */
   video_path?: string;
   forwarded_to_modulate: boolean;
 }
